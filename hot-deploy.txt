@@ -1,0 +1,7 @@
+vm options in idea (here the jar is in working dir):
+-javaagent:springloaded-1.2.1.RELEASE.jar -noverify
+
+app properties:
+spring.thymeleaf.cache=false
+
+run in debug mode and then C-F9 (rebuild project) after every change

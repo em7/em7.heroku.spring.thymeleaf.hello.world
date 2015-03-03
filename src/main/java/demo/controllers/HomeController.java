@@ -14,7 +14,7 @@ public class HomeController {
     @RequestMapping(name = "/", method = RequestMethod.GET)
     public String index(Model model) {
 
-        model.addAttribute("message", "this is a message from controller");
+        model.addAttribute("message", "this is a message from controller fsdfsad");
 
         return "index";
     }
